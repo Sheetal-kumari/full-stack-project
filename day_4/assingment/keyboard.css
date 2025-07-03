@@ -1,0 +1,52 @@
+body {
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px 10px;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.key {
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 12px 10px;
+  min-width: 40px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: inset 0 -2px 0 #aaa;
+  user-select: none;
+}
+
+.key.wide {
+  min-width: 70px;
+}
+
+.key.wider {
+  min-width: 90px;
+}
+
+.key.space {
+  min-width: 250px;
+}
+
+.key.win img {
+  width: 20px;
+  height: 20px;
+}
