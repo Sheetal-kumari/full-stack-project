@@ -49,4 +49,8 @@ body {
 .key.win img {
   width: 20px;
   height: 20px;
+} 
+
+.key:hover{
+  background:rgba(128, 128, 128, 0.801);
 }
