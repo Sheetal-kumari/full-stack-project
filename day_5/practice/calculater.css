@@ -1,0 +1,43 @@
+#parent{
+    width:500px;
+    height: 500px;
+    background-color:rgb(29, 28, 28);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+input{
+    width:90%;
+    height:60px;
+    background-color: bisque;
+    border: solid white 3px;
+   margin: 10px 10px 20px 20px;
+   background-color: rgb(219, 209, 209);
+   border-radius: 20px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#main{
+    margin-left:25px;
+     width:90%;
+    height:300px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+   }
+button{
+    color:beige;
+    border-radius: 20px;
+    background-color:rgb(73, 70, 70);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+}
+#parent>#main>.divide{
+    grid-area: 4/3/5/5;
+}
+button:hover{
+    background-color: black;
+}
+button:focus{
+    background-color: rgb(214, 208, 208);
+}

@@ -1,0 +1,54 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: lightgrey;
+      padding: 20px;
+    }
+
+    .keyboard {
+      width:90%;
+      display: grid;
+      grid-template-columns: repeat(17, 1fr);
+      gap: 5px;
+      background-color: grey;
+      
+      margin: auto;
+    }
+
+    .key {
+      border: 2px solid green;
+      padding: 15px;
+      text-align: center;
+      border-radius: 6px;
+      background-color: rgb(49, 47, 47);
+      box-shadow: 1px 1px 3px rgba(223, 169, 169, 0.2);
+      font-size: 14px;
+      color:azure;
+    }
+
+    /* Special keys using grid-area */
+    .key.tab {
+      grid-area: 3/1/4/3;
+     }
+    .key.caps { 
+      grid-area: 4/1/5/4;
+     }
+    .key.shift {
+      grid-area: 5/1/6/4;
+    }
+    .key.enter { 
+      grid-area:4/15/6/17;
+     }
+    .key.space   { 
+      grid-area:6/5/7/10;
+     }
+    .key.backspace { 
+       grid-area:2/13/3/17;
+       }
+    .key.shift2 {
+      grid-area: 5/13/6/16; 
+    }
+    .key.tab, .key.caps, .key.shift, .key.enter, .key.space, .key.backspace {
+      background-color: rgb(49, 47, 47);
+      color:azure;
+    }
+   

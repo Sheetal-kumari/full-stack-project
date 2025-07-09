@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+<!--<script>
+        let x = function(){
+            alert("hello")
+        }
+        document.getElementById("demo").innerHTML=x()
+    </script>
+    <script>
+        var myfunction = new function("a", "b", "return a+b")
+        var x=myfunction(4,6)
+        document.getElementById("demo").innerHTML="the sum is"+x
+    </script>
+    <script>
+        function Product (a,b){
+            return a*b
+        }
+        let y=Product(2,8)
+        document.getElementById("demo").innerHTML="the product is"+y
+    </script>-->
+    <!--FUNCTION AS A OBJECT-->
+    <script>
+        var body="return math.PI *rad*rad"
+        var circle = new Function ("rad",body);
+        alert(circle(5))
+    </script>
+</body>
+</html>

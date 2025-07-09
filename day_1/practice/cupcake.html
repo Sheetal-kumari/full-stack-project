@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wecome to Cupcake Corner</title>
+    <link rel="stylesheet" href="./cupcake.css">
+</head>
+<body>
+    <h1>CUPCAKE CORNER</h1>
+    <br>
+    <table>
+    <tr>
+        <td>
+            <h2>Choco-Lava-Cup-Cake</h2>
+            <p>Get ready for a rich chocolate experience! Our Choco-Lava Cupcake features a moist, decadent chocolate cake with a gooey molten chocolate center that flows with every bite. Topped with smooth chocolate ganache, it's pure bliss for true chocolate lovers. 
+        Warm it slightly for the ultimate lava effect!</p></td>
+        <td><img src ="https://media.istockphoto.com/id/544716244/photo/warm-chocolate-lava-cake-with-molten-center-and-red-currants.jpg?s=612x612&w=0&k=20&c=i1rRa1x7D1pu-INKabmC21BaU9MC8ZRQdcC7dBLdzUo=" height="100px"width="200px">
+        </td>
+    </tr>
+    <tr>
+        <td><img src="https://www.amytreasure.com/wp-content/uploads/2021/06/Vanilla-Cupcakes-1200-x-1200-2-720x720.jpg"atl="vanilla cup cake"width="200px"height="100px">
+            </td>
+        <td>
+            <h2>vanilla cupcake</h2>
+            <p>Delightfully simple and always satisfying, our Vanilla Cupcake is made with a soft, fluffy vanilla sponge and topped with a swirl of rich, creamy vanilla buttercream. Every bite melts in your mouth, offering the perfect balance of sweetness and comfort.
+             A timeless treat that brings joy to every occasion.</p>
+        </td>
+        
+    </tr>
+
+    <tr>
+        <td>
+            <h2>Raspberry-filled Vanilla Cupcake</h2>
+    <p>A classic with a surprise twist! This soft, fluffy vanilla cupcake is filled with tangy raspberry jam and topped with smooth vanilla buttercream. Light, fruity,
+             and perfectly balanced—ideal for any occasion or a delightful everyday treat.</p></td>
+        <td><img src="https://lifeinbetween.me/wp-content/uploads/2018/02/inkedvanilla-raspberry-cupcakes-1_li.jpg"alt="Raspberry-filled Vanilla Cupcake"width="200px" height="100px">
+            </td>
+    </tr>
+
+    <tr>
+        <td>
+        <img src="https://theloopywhisk.com/wp-content/uploads/2019/02/Valentines-Cupcakes_730px-7.jpg.webp"alt="Raspberry & Chocolate Valentine's Cupcake"width="200px" height="100px">
+        </td>
+        <td>
+            <h2>Raspberry & Chocolate Valentine's Cupcake</h2>
+             <p>Indulge in love at first bite with our Raspberry & Chocolate Valentine’s Cupcake. Rich, velvety chocolate cake meets a swirl of luscious raspberry-infused frosting, topped with delicate heart-shaped decorations. Sweet, slightly tart,
+     and beautifully romantic—perfect for celebrating love, friendship, or treating yourself.</p>
+        </td>
+    
+    </tr>
+
+    <tr>
+        <td>
+            <h2>Fall Leaves Cupcakes</h2>
+            <p>Celebrate the cozy vibes of autumn with our Fall Leaves Cupcakes! Each moist cupcake is topped 
+        with creamy frosting and decorated with vibrant leaf-shaped toppers in warm shades of red, 
+        orange, and gold. Perfect for fall gatherings, Thanksgiving, or just a sweet seasonal treat. 
+        These cupcakes don’t just taste like fall—they look like it too.</p>
+        </td>
+        <td><img src="https://pintsizedbaker.com/wp-content/uploads/2014/10/Fall-Leaves-Cupcakes-9-image.jpg.webp"alt="Fall Leaves Cupcakes"width="200px" height="100px"><br>
+           </td>
+        </tr>
+    </table>
+    <div id="priceCalc">
+    <h2>Calculate Your Price</h2>
+    <select id="cupcakeSelect">
+        <option value="150">Choco-Lava-Cup-Cake</option>
+        <option value="90">Vanilla Cupcake</option>
+        <option value="130">Raspberry-filled Vanilla Cupcake</option>
+        <option value="150">Raspberry & Chocolate Valentine's Cupcake</option>
+        <option value="130">Fall Leaves Cupcakes</option>
+    </select>
+    <br />
+    <input type="number" id="quantity" value="1" min="1" />
+    <br />
+    <button onclick="calculatePrice()">Get Price</button>
+    <h3 id="result"></h3>
+</div>
+
+</body>
+<script src="./cupcake.js"></script>
+</html>
